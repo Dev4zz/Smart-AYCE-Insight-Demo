@@ -14,11 +14,11 @@ Sebelum mengeksekusi proyek ini, pastikan komputer Anda telah menginstal:
 
 ## 🚀 Panduan Instalasi (Step-by-Step)
 
-### Langkah 1: Persiapan API Key
-Sistem ini membutuhkan otorisasi eksternal. Siapkan 3 API Key berikut:
-* **`APIFY_TOKEN`**: Untuk agen *scraper* ulasan Google Maps.
-* **`GROQ_API_KEY`**: Untuk LLM utama (Llama 3.1).
-* **`GEMINI_API_KEY`**: Untuk LLM cadangan otomatis jika server Groq penuh.
+### Langkah 1: Dapatkan API Key
+Sistem ini membutuhkan otorisasi untuk menarik data ulasan dan menjalankan AI. Silakan dapatkan API Key Anda melalui tautan resmi berikut:
+* **`APIFY_TOKEN`**: [Apify Console](https://console.apify.com/) *(Untuk agen scraper ulasan Google Maps)*
+* **`GROQ_API_KEY`**: [Groq Cloud Console](https://console.groq.com/keys) *(Untuk LLM utama - Llama 3.1)*
+* **`GEMINI_API_KEY`**: [Google AI Studio](https://aistudio.google.com/api-keys) *(Untuk LLM cadangan otomatis)*
 
 ### Langkah 2: Eksekusi Otomatis (Cukup 1x Copy-Paste)
 Salin blok kode di bawah ini ke Notepad terlebih dahulu, lalu **ganti tulisan `"ISI_KEY_ASLI_KAMU"`** dengan API Key milik Anda. 
