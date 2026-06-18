@@ -26,7 +26,7 @@ Salin blok kode di bawah ini ke Notepad terlebih dahulu, lalu **ganti tulisan `"
 Setelah itu, *copy* dan *paste* seluruh kode tersebut ke dalam **Command Prompt (CMD)** lalu tekan **Enter**. Sistem akan otomatis mengunduh proyek, membangun kontainer AI, dan menyalakan *website* secara berurutan.
 
 ```cmd
-git clone [https://github.com/Dev4zz/Smart-AYCE-Insight-Demo.git](https://github.com/Dev4zz/Smart-AYCE-Insight-Demo.git)
+git clone https://github.com/Dev4zz/Smart-AYCE-Insight-Demo.git
 cd Smart-AYCE-Insight-Demo\Backend
 docker build -t smart-ayce-backend .
 docker run -d -p 8000:8000 --name smart-ayce-api -e GROQ_API_KEY="ISI_KEY_ASLI_KAMU" -e GEMINI_API_KEY="ISI_KEY_ASLI_KAMU" -e APIFY_TOKEN="ISI_KEY_ASLI_KAMU" smart-ayce-backend
