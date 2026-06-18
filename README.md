@@ -23,12 +23,12 @@ Sistem ini membutuhkan otorisasi untuk menarik data ulasan dan menjalankan AI. S
 ### Langkah 2: Eksekusi Otomatis (Cukup 1x Copy-Paste)
 Salin blok kode di bawah ini ke Notepad terlebih dahulu, lalu **ganti tulisan `"ISI_KEY_ASLI_KAMU"`** dengan API Key milik Anda. 
 
-> **📝 NOTE PENTING:** 
-> **Jangan langsung *paste* kode di bawah ini ke CMD!** 
-> 1. *Copy* kode di bawah ini dan *paste* ke aplikasi **Notepad** (atau *text editor* lainnya) terlebih dahulu.
-> 2. Ganti teks `"ISI_KEY_ASLI_KAMU"` dengan ketiga API Key yang sudah Anda dapatkan pada Langkah 1.
-> 3. Jika sudah diubah, *copy* ulang seluruh baris tersebut dari Notepad.
-> 4. Buka **Command Prompt (CMD)**, *paste* kodenya, lalu tekan **Enter**.
+**📝 NOTE PENTING:** 
+**Jangan langsung *paste* kode di bawah ini ke CMD!** 
+1. *Copy* kode di bawah ini dan *paste* ke aplikasi **Notepad** (atau *text editor* lainnya) terlebih dahulu.
+2. Ganti teks `"ISI_KEY_ASLI_KAMU"` dengan ketiga API Key yang sudah Anda dapatkan pada Langkah 1.
+3. Jika sudah diubah, *copy* ulang seluruh baris tersebut dari Notepad.
+4. Buka **Command Prompt (CMD)**, *paste* kodenya, lalu tekan **Enter**.
 
 ```cmd
 git clone https://github.com/Dev4zz/Smart-AYCE-Insight-Demo.git
